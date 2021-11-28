@@ -57,6 +57,43 @@ class _Profile_editState extends State<Profile_edit> {
                 padding: EdgeInsets.all(15),
                 child: TextField(
                   decoration: InputDecoration(
+                    prefixIcon: Icon(Icons.account_circle, color: Color(0xfffe8550),),
+                      border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(30)
+                      ),
+                      filled: true,
+                      hintStyle: TextStyle(color: Colors.grey[800]),
+                      hintText: "Type in your text",
+                      fillColor: Colors.white70
+                  ),
+
+                ),
+              ),
+
+
+              Container(
+                padding: EdgeInsets.all(15),
+                child: TextField(
+                  decoration: InputDecoration(
+                      prefixIcon: Icon(Icons.account_circle, color: Color(0xfffe8550),),
+                      border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(30)
+                      ),
+                      filled: true,
+                      hintStyle: TextStyle(color: Colors.grey[800]),
+                      hintText: "Type in your text",
+                      fillColor: Colors.white70
+                  ),
+
+                ),
+              ),
+
+
+              Container(
+                padding: EdgeInsets.all(15),
+                child: TextField(
+                  decoration: InputDecoration(
+                      prefixIcon: Icon(Icons.account_circle, color: Color(0xfffe8550),),
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(30)
                       ),
